@@ -1,0 +1,117 @@
+[2025-03-14 19:25:06] local.ERROR: Command "make:livewire" is not defined.
+
+Did you mean one of these?
+    make:cache-table
+    make:cast
+    make:channel
+    make:class
+    make:command
+    make:component
+    make:controller
+    make:enum
+    make:event
+    make:exception
+    make:factory
+    make:interface
+    make:job
+    make:job-middleware
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:notifications-table
+    make:observer
+    make:policy
+    make:provider
+    make:queue-batches-table
+    make:queue-failed-table
+    make:queue-table
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:session-table
+    make:test
+    make:trait
+    make:view {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:livewire\" is not defined.
+
+Did you mean one of these?
+    make:cache-table
+    make:cast
+    make:channel
+    make:class
+    make:command
+    make:component
+    make:controller
+    make:enum
+    make:event
+    make:exception
+    make:factory
+    make:interface
+    make:job
+    make:job-middleware
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:notifications-table
+    make:observer
+    make:policy
+    make:provider
+    make:queue-batches-table
+    make:queue-failed-table
+    make:queue-table
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:session-table
+    make:test
+    make:trait
+    make:view at C:\\Users\\Saad\\Desktop\\Website_Stuff\\website\\vendor\\symfony\\console\\Application.php:726)
+[stacktrace]
+#0 C:\\Users\\Saad\\Desktop\\Website_Stuff\\website\\vendor\\symfony\\console\\Application.php(284): Symfony\\Component\\Console\\Application->find()
+#1 C:\\Users\\Saad\\Desktop\\Website_Stuff\\website\\vendor\\symfony\\console\\Application.php(193): Symfony\\Component\\Console\\Application->doRun()
+#2 C:\\Users\\Saad\\Desktop\\Website_Stuff\\website\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(198): Symfony\\Component\\Console\\Application->run()
+#3 C:\\Users\\Saad\\Desktop\\Website_Stuff\\website\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1205): Illuminate\\Foundation\\Console\\Kernel->handle()
+#4 C:\\Users\\Saad\\Desktop\\Website_Stuff\\website\\artisan(13): Illuminate\\Foundation\\Application->handleCommand()
+#5 {main}
+"} 
+[2025-03-14 19:38:06] local.ERROR: include(C:\Users\Saad\Desktop\Website_Stuff\website\vendor\composer/../symfony/http-foundation/Request.php): Failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): include(C:\\Users\\Saad\\Desktop\\Website_Stuff\\website\\vendor\\composer/../symfony/http-foundation/Request.php): Failed to open stream: No such file or directory at C:\\Users\\Saad\\Desktop\\Website_Stuff\\website\\vendor\\composer\\ClassLoader.php:576)
+[stacktrace]
+#0 C:\\Users\\Saad\\Desktop\\Website_Stuff\\website\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(290): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 C:\\Users\\Saad\\Desktop\\Website_Stuff\\website\\vendor\\composer\\ClassLoader.php(576): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->{closure:Illuminate\\Foundation\\Bootstrap\\HandleExceptions::forwardsTo():289}()
+#2 C:\\Users\\Saad\\Desktop\\Website_Stuff\\website\\vendor\\composer\\ClassLoader.php(576): include('...')
+#3 C:\\Users\\Saad\\Desktop\\Website_Stuff\\website\\vendor\\composer\\ClassLoader.php(427): {closure:Composer\\Autoload\\ClassLoader::initializeIncludeClosure():575}()
+#4 C:\\Users\\Saad\\Desktop\\Website_Stuff\\website\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Request.php(26): Composer\\Autoload\\ClassLoader->loadClass()
+#5 C:\\Users\\Saad\\Desktop\\Website_Stuff\\website\\vendor\\composer\\ClassLoader.php(576): include('...')
+#6 C:\\Users\\Saad\\Desktop\\Website_Stuff\\website\\vendor\\composer\\ClassLoader.php(427): {closure:Composer\\Autoload\\ClassLoader::initializeIncludeClosure():575}()
+#7 C:\\Users\\Saad\\Desktop\\Website_Stuff\\website\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\SetRequestForConsole.php(31): Composer\\Autoload\\ClassLoader->loadClass()
+#8 C:\\Users\\Saad\\Desktop\\Website_Stuff\\website\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(316): Illuminate\\Foundation\\Bootstrap\\SetRequestForConsole->bootstrap()
+#9 C:\\Users\\Saad\\Desktop\\Website_Stuff\\website\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(474): Illuminate\\Foundation\\Application->bootstrapWith()
+#10 C:\\Users\\Saad\\Desktop\\Website_Stuff\\website\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#11 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#12 {main}
+"} 
+[2025-03-14 19:38:06] local.ERROR: include(C:\Users\Saad\Desktop\Website_Stuff\website\vendor\composer/../symfony/http-foundation/Request.php): Failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): include(C:\\Users\\Saad\\Desktop\\Website_Stuff\\website\\vendor\\composer/../symfony/http-foundation/Request.php): Failed to open stream: No such file or directory at C:\\Users\\Saad\\Desktop\\Website_Stuff\\website\\vendor\\composer\\ClassLoader.php:576)
+[stacktrace]
+#0 C:\\Users\\Saad\\Desktop\\Website_Stuff\\website\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(290): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 C:\\Users\\Saad\\Desktop\\Website_Stuff\\website\\vendor\\composer\\ClassLoader.php(576): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->{closure:Illuminate\\Foundation\\Bootstrap\\HandleExceptions::forwardsTo():289}()
+#2 C:\\Users\\Saad\\Desktop\\Website_Stuff\\website\\vendor\\composer\\ClassLoader.php(576): include('...')
+#3 C:\\Users\\Saad\\Desktop\\Website_Stuff\\website\\vendor\\composer\\ClassLoader.php(427): {closure:Composer\\Autoload\\ClassLoader::initializeIncludeClosure():575}()
+#4 C:\\Users\\Saad\\Desktop\\Website_Stuff\\website\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Request.php(26): Composer\\Autoload\\ClassLoader->loadClass()
+#5 C:\\Users\\Saad\\Desktop\\Website_Stuff\\website\\vendor\\composer\\ClassLoader.php(576): include('...')
+#6 C:\\Users\\Saad\\Desktop\\Website_Stuff\\website\\vendor\\composer\\ClassLoader.php(427): {closure:Composer\\Autoload\\ClassLoader::initializeIncludeClosure():575}()
+#7 C:\\Users\\Saad\\Desktop\\Website_Stuff\\website\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\SetRequestForConsole.php(31): Composer\\Autoload\\ClassLoader->loadClass()
+#8 C:\\Users\\Saad\\Desktop\\Website_Stuff\\website\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(316): Illuminate\\Foundation\\Bootstrap\\SetRequestForConsole->bootstrap()
+#9 C:\\Users\\Saad\\Desktop\\Website_Stuff\\website\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(474): Illuminate\\Foundation\\Application->bootstrapWith()
+#10 C:\\Users\\Saad\\Desktop\\Website_Stuff\\website\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#11 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#12 {main}
+"} 

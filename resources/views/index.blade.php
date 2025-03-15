@@ -28,7 +28,7 @@
                   </svg>
                 </a>
                 <a class="inline-flex items-center justify-center w-full mb-2 btn btn-light btn-lg sm:w-auto sm:mb-0" href="#">
-                  Book a Demo
+                  Book a Demoss
                   <svg class="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                     <path
                       fill-rule="evenodd"
